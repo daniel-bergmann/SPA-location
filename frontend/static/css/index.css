@@ -1,0 +1,41 @@
+body {
+  --nav-width: 200px;
+  margin: 0 0 0 var(--nav-width);
+}
+
+body a {
+  color: #333;
+  text-decoration: none;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: var(--nav-width);
+  height: 100vh;
+  background: #000000de;
+}
+
+.nav__link {
+  display: block;
+  padding: 12px 18px;
+  text-decoration: none;
+  color: #eeeeee;
+}
+
+.nav__link:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+#app {
+  margin: 16px;
+  line-height: 1.5;
+}
+
+.box {
+  border: 1px black solid;
+  display: inline-block;
+  padding: 10px;
+}
+/*# sourceMappingURL=index.css.map */
